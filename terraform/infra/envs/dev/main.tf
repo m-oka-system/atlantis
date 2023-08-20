@@ -39,3 +39,5 @@ module "resource_group" {
 
   common = var.common
 }
+
+resource "null_resource" "example" {}
